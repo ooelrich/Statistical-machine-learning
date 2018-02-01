@@ -1,7 +1,11 @@
-<<<<<<< HEAD
+#<<<<<<< HEAD
 #TEXT TEXT TEX
 
 library(lme4)
+
+a <- 1:100
+b <- sqrt(a)
+plot(a,b)
 
 library(tidyverse)
 tsd <- read.csv('songs_to_classify.csv',header=T)
