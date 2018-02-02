@@ -1,7 +1,11 @@
 #<<<<<<< HEAD
 #TEXT TEXT TEX
 
+<<<<<<< HEAD
 #what is the even
+=======
+library(lme4)
+>>>>>>> 769f9f290898926f6d7773302cb402a739cb7da1
 
 a <- 1:100
 b <- sqrt(a)
