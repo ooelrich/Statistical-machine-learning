@@ -1,6 +1,8 @@
 #<<<<<<< HEAD
 #TEXT TEXT TEX
 
+#what is the even
+
 a <- 1:100
 b <- sqrt(a)
 plot(a,b)
