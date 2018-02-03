@@ -5,8 +5,8 @@
 #what is the even Seb
 
 library(lme4)
-
-
+library(fortunes)
+fortune(106)
 a <- 1:100
 b <- sqrt(a)
 plot(a,b)
