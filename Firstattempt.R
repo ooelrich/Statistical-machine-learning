@@ -42,7 +42,7 @@ mean(pred == testdat$label)
 #####################################Logistic with all cov
 
 
-glm.fit <- glm(formula = label ~ ., data = traindat, family = binomial)
+glm.fit <- glm(formula = label ~ ., data = traindat, family = binomial(link = "probit"))
 
 glm.probs <- predict(object = glm.fit, newdata = testdat, type = "response")
 glm.pred <- rep("like", length(glm.probs))
